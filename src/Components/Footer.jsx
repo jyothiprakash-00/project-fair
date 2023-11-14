@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div style={{width:'100%',height:'300px'}} className='d-flex flex-column justify-content-center align-items-center bg-success text-light '>
+    <div style={{width:'100%',height:'300px',marginTop:'50px'}} className='d-flex flex-column justify-content-center align-items-center bg-success text-light '>
         <div className='footer-div d-flex justify-content-evenly w-100 flex-wrap'>
           <div className="website" style={{width:'400px'}}>
 
-          <h4 className='mb-3'><i class="fa-solid fa-book"></i>Project Fair</h4>
+          <h4 className='mb-3'><i class="fa-solid fa-book me-1"></i>Project Fair</h4>
           <h6>Designed and built with all the love in the world by the Luminar team with the help of our contributors.</h6>
           <h6>Code licensed Luminar,docs CC By 3.0.</h6>
           <p>Currently v1.0.0.</p>
@@ -16,8 +16,8 @@ function Footer() {
           <div className="links d-flex flex-column ">
             <h4>Links</h4>
             <Link to={'/'} style={{ textDecoration:'none', color:'white' }}>Home</Link>
-            <Link to={'/cart'} style={{ textDecoration:'none', color:'white' }}>Cart</Link>
-            <Link to={'/whishlist'} style={{ textDecoration:'none', color:'white' }}>Wishlist</Link>
+            <Link to={'/projects'} style={{ textDecoration:'none', color:'white' }}>Projects</Link>
+            <Link to={'/dashboard'} style={{ textDecoration:'none', color:'white' }}>Dashboard</Link>
           </div>
           <div className="guides d-flex flex-column ">
           <h4 className='mb-3'>Guides</h4>
